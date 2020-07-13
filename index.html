@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--FONT-AWESOME-->
+    <script src="https://kit.fontawesome.com/6629e20d42.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <title>FB PORTAL</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">BYB</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">with Facebook</a>
+                </li>
+            </ul>
+            <div class="form">
+                <div class="settings">
+                    <i class="fas fa-cog"></i>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Action</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </nav>
+
+        
+        <div class="container row body">
+            <!--SIDEBAR-->
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Trainers dashboard</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Book session</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">All session</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Check session status</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Send report</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">All reports</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Download resources</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">My payments</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Account settings</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Join our community</a>
+                </div>
+            </div>
+
+            <!--Main Content-->
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h1>Welcome to our trainer's name</h1>
+                        <h5>Carefully read before you proceed</h5>
+                        <div class="explanation">
+                            <ol>
+                                <li>Update your profile and bank details before you proceed!</li>
+                                <li>Carefully click the information you enter while booking a session</li>
+                                <li>You can only book a session at least 7 days before the proposed date.</li>
+                                <li>Remember to log in and check for the session approval before due date.</li>
+                                <li>Reports are to be made within 24 hours of training.</li>
+                            </ol>
+
+                            <button type="button" class="btn">Edit profile and continue</button>
+                        </div>
+
+                        <div class="statistics">
+                            <h4>Training Statistics</h4>
+                        </div>
+                        <div class="row stats">
+                            <!--Training booked-->
+                            <div class="booked p-2 mr-4 col-3">
+                                <div class="number"style="font-size: 30px;">782</div>
+                                <p>Total tainning booked</p>
+                            </div>
+                            <!--Training approved-->
+                            <div class="approved p-2 mr-4 col-3">
+                                <div class="number" style="font-size: 30px;">426</div>
+                                <p>Total trainees approved</p>
+                            </div>
+                            <!--Total earning-->
+                            <div class="earned p-2 mr-4 col-3">
+                                <div class="number" style="color:
+                                #32A636; font-size: 30px;">&#8358;726,052</div>
+                                <p>Total earnings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Tab Pane2-->
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h4>Schedule a training session</h4>
+                        <div class="form">
+                            <form>
+                                <p>Please note that you are to fill the form, a minimum of 7 days before your proposed date.</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Josh">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Onwughalu">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="email" class="form-control p-4" placeholder="Kreativejosh@gmail.com">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Name of Organisation">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Expected Nos of Participant">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Training venue">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <select name="lgas">
+                                            <option value="active">Proposed LGA</option>
+                                            <option value="lga">LGA1</option>
+                                            <option value="lga">LGA2</option>
+                                            <option value="lga">LGA3</option>
+                                            <option value="lga">LGA4</option>
+                                            <option value="lga">LGA5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control p-4" placeholder="Proposed training date">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control p-4" placeholder="Proposed time">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-block p-2">Save and continue</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!--<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>-->
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="copyright mr-auto">Copyrights &copy 2020. All rights reserved.</div>
+
+                    <div class="made">made at Innovation Growth Hub Aba</div>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

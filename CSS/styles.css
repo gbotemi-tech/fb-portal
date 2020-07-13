@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.body {
+    margin: 50px;
+}
+
+/*SIDE BAR*/
+.body .nav a {
+    color: rgba(0, 0, 0, 0.89);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.712);
+}
+
+.body .nav a {
+    color: rgba(0, 0, 0, 0.89);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+.tab-content .tab-pane h5 {
+    opacity: 0.6;
+}
+
+.tab-content .tab-pane .explanation {
+    background: #fff;
+    padding: 20px;
+}
+
+.tab-content .tab-pane button {
+    background: #1E73E8;
+    color: #fff;
+    font-size: 18px;
+}
+
+.tab-content .tab-pane .explanation ol {
+    opacity: 0.9;
+}
+
+.tab-content .tab-pane .explanation .btn {
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.tab-content {
+    margin-left: 20px;
+}
+
+.tab-content .tab-pane .statistics h4 {
+    padding-top: 40px;
+}
+
+.tab-content .tab-pane .stats{
+    margin: 20px 0px 0px 10px;
+}
+
+.tab-content .tab-pane .stats .booked, .approved, .earned{
+    background: #fff;
+}
+
+@media (max-width:770px) {
+    .tab-content .tab-pane h1 {
+        font-size: 25px;
+    }
+    .tab-content .tab-pane h5 {
+        font-size: 20px;
+    }
+    .tab-content .tab-pane .explanation ol {
+        font-size: 15px;
+    }
+    .tab-content .tab-pane .explanation .btn {
+        font-size: 12px;
+    }
+    .body .nav a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:450px) {
+    .tab-content .tab-pane h1 {
+        font-size: 20px;
+    }
+    .tab-content .tab-pane h5 {
+        font-size: 15px;
+    }
+    .tab-content .tab-pane .explanation ol {
+        font-size: 13px;
+    }
+    .tab-content .tab-pane .explanation .btn {
+        font-size: 12px;
+    }
+}
+
+/*TAB PANE 2*/
+.tab-content .tab-pane form {
+    background-color: #fff;
+}
+.tab-content .tab-pane .form form{
+    padding: 20px;
+}
+
+.tab-content .tab-pane .form form .row {
+    padding: 0px 20px 0px 20px;
+}
+
+.tab-content .tab-pane .form form input, select {
+    background: #E5E5E5;
+    outline: none !important;
+    margin-bottom: 20px;
+}
+
+.tab-content .tab-pane .form form select {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+footer {
+    background: #1E73E8;
+    color: #fff;
+    padding: 10px 40px 10px 60px;
+}

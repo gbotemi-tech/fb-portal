@@ -1,0 +1,42 @@
+.navbar {
+    background: #1E73E8 !important;;
+    margin-top: -0px;
+}
+
+.navbar .navbar-brand {
+    margin-left: 5%;
+    padding: 15px;
+    border-right: 2px solid #fff;
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:not(.disabled) {
+    color: #fff;
+}
+
+.form {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 5%;
+}
+
+.settings {
+    display: flex;
+}
+
+.settings .dropdown-toggle {
+    color: #fff;
+}
+
+.settings .fa-cog {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.user .fa-user-circle {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
